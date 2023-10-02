@@ -18,7 +18,7 @@ resource "aws_instance" "fin-mobile-frontend" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "Finance_Front_End_VScode",
+    Name = "Finance_Front_End_VScode_v2",
     Cost_Center = var.cost_center,
     Admin_Contact = var.admin_group
   }
